@@ -1,0 +1,100 @@
+body, button, #search-bar {
+  color: rgb(90, 90, 90);
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, .title {
+  color: rgb(60, 60, 60);
+}
+
+.title {
+  margin-bottom: 16px;
+}
+
+h1, h2, body > p, #status, .info {
+  text-align: center;
+}
+
+#controls, .movie {
+  display: flex;
+  align-items: center;
+}
+
+#controls, #result-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#controls {
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 80px;
+}
+
+#submit {
+  font-size: 40px;
+}
+
+#result-container {
+  border: 1px lightgray solid;
+  width: 70%;
+  min-height: 0px;
+}
+
+.movie {
+  margin: 5px auto 5px;
+  justify-content: space-between;
+  border-left: 10px rgb(60, 60, 60) solid;
+  border-top: 1px rgb(233, 233, 233) solid;
+  border-bottom: 1px rgb(233, 233, 233) solid;
+  padding: 0px 100px 0px;
+  height: 200px;
+}
+
+.title {
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.thumbnail {
+  height: auto;
+  width: auto;
+  max-height: 120px;
+  max-width: 120px;
+}
+
+.movie-name {
+  width: 30%;
+}
+
+.preview {
+  max-width: 250px;
+  max-height: 80%;
+}
+
+#loading {
+  background-color: red;
+  width: 100%;
+  height: 500px;
+  font-size: 100px;
+}
+
+#search-bar {
+  width: 85%;
+  height: 50%;
+  font-size: 32px;
+  margin-right: 4px;
+}
+
+.error {
+  color: red;
+}
+
+.break {
+  flex-basis: 100%;
+}
+
+.hidden {
+  display: none;
+}

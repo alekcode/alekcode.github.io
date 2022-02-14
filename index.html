@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>iTunes Movie Search Tool</title>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/f747168652.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <h1>iTunes Movie Search Tool</h1>
+    <p>
+      Search for any movie on the iTunes store.
+    </p>
+    <section id="controls">
+      <input name="search-bar" id="search-bar" type="search">
+      <i id="submit" class="fa-solid fa-magnifying-glass"></i>
+      <div class="break"></div>
+      <button id="filter">Show movies with known runtimes</button>
+    </section>
+    <article>
+      <h2>Results</h2>
+      <p id="status"></p>
+      <section id="result-container">
+      </section>
+    </article>
+  </body>
+</html>
